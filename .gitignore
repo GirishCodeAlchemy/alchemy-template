@@ -2,6 +2,8 @@
 __pycache__/
 *.py[cod]
 *$py.class
+.vscode/*
+.DS_Store
 
 # C extensions
 *.so
@@ -158,3 +160,29 @@ cython_debug/
 #  and can be added to the global gitignore or merged into this file.  For a more nuclear
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
+
+##########Golang####################
+
+# Dependency directories (remove the comment below to include it)
+vendor/
+
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+# Go workspace file
+go.work*
+
+./pkg/
+
+
+
+###########nodejs ##############
+
+node_modules
